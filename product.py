@@ -8,3 +8,8 @@ while True:
 print(products)
 s = products[0][1]
 print(s)
+
+for p in products:
+	print(p[0], '的價格是', p[1])
+
+	
